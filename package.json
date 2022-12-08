@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "@types/when@2.4.34",
+      "C:\\DEV\\CP\\webgis-core-fork-typescript"
+    ]
+  ],
+  "_development": true,
+  "_from": "@types/when@2.4.34",
+  "_id": "@types/when@2.4.34",
+  "_inBundle": false,
+  "_integrity": "sha512-sSf48zGtIioUoAi4JeqtyKoT7jgPG1ua6Zb95Es+nHELDrOF9q3LI136MDEr7ig7y3wSc+/FDCPzZomW9oVbtQ==",
+  "_location": "/@types/when",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/when@2.4.34",
+    "name": "@types/when",
+    "escapedName": "@types%2fwhen",
+    "scope": "@types",
+    "rawSpec": "2.4.34",
+    "saveSpec": null,
+    "fetchSpec": "2.4.34"
+  },
+  "_requiredBy": [
+    "/@types/rest"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/when/-/when-2.4.34.tgz",
+  "_spec": "2.4.34",
+  "_where": "C:\\DEV\\CP\\webgis-core-fork-typescript",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "contributors": [
+    {
+      "name": "Derek Cicerone",
+      "url": "https://github.com/derekcicerone"
+    },
+    {
+      "name": "Wim Looman",
+      "url": "https://github.com/Nemo157"
+    }
+  ],
+  "dependencies": {},
+  "description": "TypeScript definitions for When",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/when",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/when",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/when"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.6",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "aba63ca95b57a61585ae83a05686998383c9d962344924409257422fdfecdf68",
+  "version": "2.4.34"
+}
