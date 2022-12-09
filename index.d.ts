@@ -90,6 +90,8 @@ declare namespace When {
         array: Array<T> | Promise<Array<T>>,
         predicate: (value: T, index: number) => boolean
     ): Array<T>;
+	
+	function isPromiseLike(A1: any): boolean;
 
     /**
      * Return a promise that will resolve only once all the supplied promisesOrValues
