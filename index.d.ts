@@ -73,6 +73,11 @@ declare namespace When {
         arg4: A4 | Promise<A4>,
         arg5: A5 | Promise<A5>
     ): Promise<T>;
+	
+	function attempt<T>(
+		f: _.Fn0<T>,
+        ...args: any[]
+    ): Promise<T>;
 
 
     function lift<T>(f: _.Fn0<T>): _.LiftedFn0<T>;
