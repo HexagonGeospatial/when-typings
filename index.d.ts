@@ -94,7 +94,7 @@ declare namespace When {
     function filter<T>(
         array: Array<T> | Promise<Array<T>>,
         predicate: (value: T, index: number) => boolean
-    ): Array<T>;
+    ): Promise<Array<T>>;
 	
 	function isPromiseLike(A1: any): boolean;
 
